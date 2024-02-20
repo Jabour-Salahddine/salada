@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-image: url(img/back.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 180px 50px;
+  padding: 50px 80px;
+  backdrop-filter: blur(2px);
+  background: (255, 255, 255, 0.2);
+}
+
+.title {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.down {
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  font-size: 8px;
+  margin-right: 18px;
+}
+
+.input-box {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  padding: 10px 24px;
+}
+
+.remember input[type="checkbox"] {
+  margin-right: 4px;
+}
+
+.input-box i {
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+}
+
+.down input {
+  height: 10px;
+  width: 10px;
+}
+
+.continue {
+  color: transparent;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: currentColor;
+  border-radius: 15px;
+  padding: 7px 10px;
+  box-shadow: 0 0 20px rgba(114, 4, 4, 0.5);
+  cursor: pointer;
+  color: #333;
+  font-weight: 600;
+  transition: 0.7s ease;
+}
+
+.continue:hover {
+  background-color: transparent;
+  background: blur(100%);
+  transform: scale(1.1);
+}
+
+.continue:active {
+  background-color: rgba(115, 11, 11, 0.788);
+}
+
+.option {
+  margin-top: 15px;
+}
+
+.option a {
+  margin: 28px 10px;
+  text-decoration: none;
+  transition: text-decoration 0.7s ease;
+}
+
+.option a:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
